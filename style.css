@@ -253,9 +253,29 @@
   }
   
 
-  /* Moblile screen css */
-
   @media screen and (max-width: 600px) {
- 
+
+  /* Mobile Nav bar */
+  .main-nav ul {
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    gap: 0.5rem; 
+    padding: 0;
   }
-  
+
+  .main-nav li {
+    margin: 10px;
+  }
+
+
+  /* Mobile video  */
+  .video-container {
+    padding-bottom: 40%;
+    max-width: 100%;
+  }
+
+  .video-container iframe {
+    border-radius: 10px;
+  }
+
+}
